@@ -1,0 +1,187 @@
+
+#map {
+  width: 80%;
+  position: absolute;
+  bottom: 10px;
+  top: 150px;
+  left: 215px;
+}
+#map_maps {
+  width: 80%;
+  position: absolute;
+  bottom: 10px;
+  left: 205px;
+}
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding:2px;
+  font-family: Oswald;
+  background-image: url("https://raw.githubusercontent.com/brittanyyee/territories/master/onix%20sales%20map/onixheader2.jpg");
+  color: white;
+}
+
+.label {
+  color: white;
+  margin-left: 15px;
+  padding: 15px;
+  display: block;
+  text-align: center;
+  width: 300px;
+  background-color: #fd1b14;
+  height: 20px
+}
+
+a {
+  text-decoration: none;
+  background-color: #000;
+}
+
+.gm-style-iw {
+  background-color: #000 !important;
+  color: #fff !important;
+  font-family: Oswald !important;
+  text-align: center;
+  display: absolute;
+  font-size: 12px !important;
+}
+
+.gm-style-iw div {
+  overflow: hidden !important;
+  font-family: Oswald !important;
+  font-size: 12px !important;
+  margin: auto !important;
+  padding-right: 5px;
+  padding-top: 5px;
+  padding-bottom: 8px;
+}
+
+.center {
+  position: absolute;
+  width: 700px;
+  height: 63px;
+  right: 500px;
+  top: 5px;
+  padding: 3px;
+  font-size: 20px;
+  background: none;
+  color: #fff;
+  text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 15px darkblue;
+}
+h1 {
+  font-size: 30px;
+  text-align: center;
+  font-display: block;
+  margin-top: 20px;
+  text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+}
+p {
+  text-align: center;
+  font-size: 24px;
+  font-family: Oswald;
+  color: #fff;
+  margin-top: 5px;
+  font-display: block;
+}
+h3 { 
+  text-align: left;
+  font-size: 20px;
+  font-family: Oswald;
+  color: #fff;
+  margin-top: 15px;
+}
+
+#svg {
+  height: 120px;
+  width: 150px;
+  padding-right: 3px;
+  background: none;
+  margin: 2px 75px 5px 0px;
+}
+
+.Onix-Logo {
+  position: relative;
+  margin: auto;
+  padding: 0px;
+  margin: 2px 75px 5px 0px;
+  background: none;
+}
+
+a {
+  font-family: Oswald;
+  font-size: 16px;
+  display: block;
+  color: white;
+  background: none;
+  text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+}
+
+
+.row {
+  margin-top: 5px;
+}
+
+.btn {
+  border: 2px solid black;
+  background: none;
+  color: black;
+  padding: 14px 28px;
+  font-size: 14px;
+  font-family: oswald;
+  cursor: pointer;
+  display: list-item;
+}
+
+/* Green */
+.charlie {
+  border-color: #9c9c9c;
+  color: #ffffff;
+}
+
+.charlie:hover {
+  background-color: #9c9c9c;
+}
+
+/* Blue */
+.dan {
+  border-color: #fd1b14;
+  color: #ffffff;
+}
+
+.dan:hover {
+  background: #fd1b14;
+  
+}
+
+/* Orange */
+.phil {
+  border-color: #65d8ff;
+  color: #ffffff;
+}
+
+.phil:hover {
+  background: #65d8ff;
+  
+}
+
+/* Red */
+.zack {
+  border-color: #00b1b1;
+  color: #ffffff
+}
+
+.zack:hover {
+  background: #00b1b1;
+  
+}
+
+/* Gray */
+.default {
+  border-color: #e7e7e7;
+  color: black;
+}
+
+.default:hover {
+  background: #e7e7e7;
+}
